@@ -1,0 +1,103 @@
+<html>
+<head>
+     <link rel="stylesheet" type="text/css" href="GradeCalculator.css">   
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+     <script src="JavaScript.js" type="text/javascript"></script>
+</head>
+<body onload="setUp()">
+<div id="GradeInput">
+    <div id="reading" class="counter">
+        <div class="Name">
+            Reading
+        </div>
+        <div class="Up" onclick="clickUp(reading)">
+            +
+        </div>
+        <div class="Score" id="rScore">
+            =
+        </div>
+        <div class="Down" onclick="clickDown(reading)">
+            -
+        </div>
+    </div>
+    <div id="speaking" class="counter">
+        <div class="Name">
+            Speaking
+        </div>
+        <div class="Up" onclick="clickUp(speaking)">
+            +
+        </div>
+        <div class="Score" id="sScore">
+            =
+        </div>
+        <div class="Down" onclick="clickDown(speaking)">
+            -
+        </div>
+    </div>
+    <div id="listening" class="counter">
+        <div class="Name">
+            Listening
+        </div>
+        <div class="Up" onclick="clickUp(listening)">
+            +
+        </div>
+        <div class="Score"id="lScore">
+            =
+        </div>
+        <div class="Down" onclick="clickDown(listening)">
+            -
+        </div>
+    </div>
+    <div id="writing" class="counter">
+        <div class="Name">
+            Writing
+        </div>
+        <div class="Up" onclick="clickUp(writing)">
+            +
+        </div>
+        <div class="Score" id="wScore">
+            =
+        </div>
+        <div class="Down" onclick="clickUp(writing)">
+            -
+        </div>
+    </div>
+    <div id="q3" class="counter">
+        <div class="Name">
+            Quarter 3
+        </div>
+        <div class="Up">
+            +
+        </div>
+        <div class="Score" id="q3Score">
+            =
+        </div>
+        <div class="Down">
+            -
+        </div>
+    </div>
+    <div id="q4" class="counter">
+        <div class="Name">
+            Quarter 4
+        </div>
+        <div class="Up">
+            +
+        </div>
+        <div class="Score" id="q4Score">
+            =
+        </div>
+        <div class="Down">
+            -
+        </div>
+    </div>
+</div>
+
+<p id="Title">
+    Spanish Grade Calculator
+</p>
+<p id="Grade">
+    Grade
+    
+</p>
+</body>
+</html>

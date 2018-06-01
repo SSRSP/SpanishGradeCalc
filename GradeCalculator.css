@@ -1,0 +1,128 @@
+#Title {
+    text-align: center;
+    font-size: 2em;
+    padding: 0px;
+}
+
+#Grade {
+    text-align: center;
+    font-size: 2.5em;
+    padding: 0px;
+}
+
+#GradeInput {
+    background-color: #f2f2f2;
+    width: 75%;
+    left: 12.5%;
+    height: 60%;
+    top: 25%;
+    position: absolute;
+    border-radius: 5%;
+}
+
+.counter {
+    width: 16%;
+    border-radius: 2%;
+    height: 70%;
+    top: 5%;
+    background-color: gray;
+    position: absolute;
+}
+
+#reading {
+    left: .3%;
+}
+
+#speaking {
+    left: 16.9%;
+}
+
+#listening {
+    left: 33.5%;
+}
+
+#writing {
+    left: 50.1%;
+}
+
+#q3 {
+    left: 66.7%;
+}
+
+#q4 {
+    left: 83.3%;
+}
+
+
+.Name {
+    position: absolute;
+    width: 98%;
+    left: 1%;
+    top: 1%;
+    height: 23%;
+    background-color: white;
+    border-radius: 5%;
+    text-align: center;
+    font-size: 3em;
+    
+}
+
+.Up {
+    position: absolute;
+    width: 98%;
+    left: 1%;
+    top: 25%;
+    height: 23%;
+    background-color: white;
+    border-radius: 5%;
+    text-align: center;
+    font-size: 3em;
+     -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome and Opera */
+}
+
+.Score {
+    position: absolute;
+    width: 98%;
+    left: 1%;
+    top: 50%;
+    height: 23%;
+    background-color: white;
+    border-radius: 5%;
+    text-align: center;
+    font-size: 3em;
+}
+
+.Down {
+    position: absolute;
+    width: 98%;
+    left: 1%;
+    top: 75%;
+    height: 23%;
+    background-color: white;
+    border-radius: 5%;
+    text-align: center;
+    font-size: 3em;
+     -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome and Opera */
+}
+
+:hover.Up {
+    background-color: #42f45c;
+    color: white;
+}
+
+:hover.Down {
+    background-color: #f44141;
+    color: white;
+}
